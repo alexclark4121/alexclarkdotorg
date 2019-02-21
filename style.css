@@ -1,0 +1,19 @@
+body {
+  font-size: 40px;
+}
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: rgb(226, 54, 41);
+
+}
+
+.center {
+margin: auto;
+width: 50%;
+padding: 10px;
+text-align: center;
+}
