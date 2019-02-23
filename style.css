@@ -1,14 +1,25 @@
 .top-page {
     font-family: 'Bungee Shade', cursive;
+    color: #AAABB8;
     letter-spacing: -2px;
     border-style: hidden;
-    background-color: #eae7dc;
+    background-color: #25274d;
     text-align: center;
     width: 100%;
     display: inline-block;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+    
+
+}
+
+.student-information {
+    font-family: 'BioRhyme', serif;
+    background-color: #AAABB8;
+    border-style: hidden;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+        
 
 }
