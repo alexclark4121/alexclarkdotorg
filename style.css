@@ -1,0 +1,14 @@
+.top-page {
+    font-family: 'Bungee Shade', cursive;
+    letter-spacing: -2px;
+    border-style: hidden;
+    background-color: #eae7dc;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+
+}
