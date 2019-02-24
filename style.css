@@ -1,10 +1,9 @@
 .top-page {
 
     font-family: 'Ubuntu', sans-serif;
-    color: #AAABB8;
     letter-spacing: -2px;
-    border-style: hidden;
-    background-color: #25274d;
+    border-style: solid;
+    
     text-align: center;
     width: 100%;
     display: inline-block;
@@ -14,8 +13,7 @@
 
 .student-information {
     font-family: 'Open Sans', sans-serif;
-    background-color: #AAABB8;
-    border-style: hidden;
+    border-style: solid;
     text-align: center;
     width: 100%;
     display: inline-block;
