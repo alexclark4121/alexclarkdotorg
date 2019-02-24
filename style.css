@@ -1,24 +1,34 @@
-.top-page {
+/*** Header area */
 
+.top-page {
     font-family: 'Ubuntu', sans-serif;
     letter-spacing: -2px;
-    border-style: solid;
-    
     text-align: center;
     width: 100%;
     display: inline-block;
-    
-
 }
+
+/*paragraph text */
 
 .student-information {
     font-family: 'Open Sans', sans-serif;
-    border-style: solid;
     text-align: center;
     width: 100%;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-        
+}
 
+.form-head {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+}
+
+.yearbook-pick-form {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    width: 50%;
+    display: inline-block;
 }
