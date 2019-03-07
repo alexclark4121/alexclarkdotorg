@@ -16,20 +16,30 @@
 
 }
 
+
+.content-wrapper {
+  padding-top: 30px;
+  padding-left: 90px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+
+}
+
+
 .flex-container {
-    padding: 0;
-    margin: 0;
+    padding: 10px;
+    margin: 10px;
     list-style: none;
-    
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
-    
-    -webkit-flex-flow: row wrap;
+   -webkit-flex-flow: row wrap;
     justify-content: space-around;
   }
+  
+  .flex-item {
+    display: flex;
+  }
+  
   
   .flex-item {
     font-family: 'Roboto';
@@ -41,7 +51,6 @@
     margin-top: 20px;
     border-radius: 10px;
     line-height: 150px;
-    color: #000000;
     font-size: 3em;
     text-align: center;
     align-items: flex-start;
@@ -65,10 +74,12 @@
       clear: both;
       float: left;
       margin: 10px auto 5px 20px;
-      width: 28%;
+      width: 30%;
       display: none;
     }
   }
+
+
 
 
 
