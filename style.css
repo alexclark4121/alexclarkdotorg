@@ -1,167 +1,66 @@
-body, html {
-  margin: 0;
-  padding: 0;
+* {
+  box-sizing: border-box;
 }
 
-
-p {
-  font-family: "roboto";
-
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 
-
-
-
-
-
-/*header formatting */
-
+/* Style the header */
 header {
-  font-family: "roboto";
-  width: 100%;
+  background-color: white;
+  padding: 30px;
   text-align: center;
-  background: white;
-  padding-top: 15px;
-  padding-bottom: 0;
-
-}
-
-
-
-/*first information div formatting */
-
-
-.info-box-one {
-  width: 100%;
-  text-align: center;
-  background: #525C6D;
-  color: white;
-  border: 25px #525C6D;
-  font-family: "roboto";
-  padding-top: 35px;
-  padding-bottom: 35px;
-  padding-right: 25px;
-  padding-left: -25px;
-  
-
-  
-
-
-}
-
-/*second smalled info box */
-
-.info-box-two {
-  width: 100%;
-  text-align: center;
-  background: white;
+  font-size: 35px;
   color: black;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  padding-right: 25px;
-  padding-left: -25px;  
-  
+}
 
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
 }
 
 
-/*pre footer formatting */
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 25px;
+}
+
 
 .pre-footer {
-  width: 100%;
-  text-align: center;
-  background: black;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: black;
+  padding: 25px;
   color: white;
-  border-style: solid;
-  border-color: black;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  padding-right: 25px;
-  padding-left: -25px;
-  line-height: 10px;
-
-
-
+  list-style: none;
+  text-align: center
 }
 
 
 
-/*footer formatting */
-
+/* Style the footer */
 footer {
-  font-family: "roboto";
-  width: 100%;
+  background-color: #777;
+  padding: 10px;
   text-align: center;
-  background: black;
   color: white;
-  border-style: solid;
-  border-color: black;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  padding-right: 25px;
-  padding-left: -25px;
-  
+}
 
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
 }
 
 
-
-
-/*Hamburger menu and overlay css */
-
-.open{
-  position: relative;
-  display: flex;
-  font-size: 2em;
-  color: black;
-  cursor: pointer;
-  padding-left: 10px;
-  top: -65px;  
-  
-}
-
-.overlay{
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: black;
-  opacity: 1;
-  visibility: hidden;
-}
-
-.close{
-  position: absolute;
-  right: 10px;
-  font-size: 3em;
-  color: #fff;
-  cursor: pointer;
-}
-
-ul{
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-ul a{
-  display: block;
-  text-decoration: none;
-  margin-bottom: 20px;
-  font-size: 3em;
-  font-family: "roboto";
-  color: #fff;
-  cursor: pointer;
-  transition: transform .5s;
-}
-
-ul a:hover{
-  transform: scale(1.2);
-}
-
-.visible{
-  opacity: .9;
-  visibility: visible;
