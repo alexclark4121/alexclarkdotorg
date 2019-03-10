@@ -1,220 +1,167 @@
-/*** Header area */
-
-.top-page {
-    font-family: 'Roboto', sans-serif;
-    background-color: tomato;
-    text-align: center;
-    padding: 25px 0;
-    color: #000000;
-    width: 100%;
-    position: relative;
-    margin: 25x;
-    display: inline-block;
-    border-radius: 10px;
-    font-size: 50px;
-
-
+body, html {
+  margin: 0;
+  padding: 0;
 }
 
 
-.content-wrapper {
-  padding-top: 30px;
-  padding-left: 90px;
-  padding-right: 80px;
-  padding-bottom: 50px;
-  border-radius: 10px;
+p {
+  font-family: "roboto";
 
-}
-
-
-.flex-container {
-    padding: 10px;
-    margin: 10px;
-    list-style: none;
-    display: flex;
-   -webkit-flex-flow: row wrap;
-    justify-content: space-around;
-  }
-  
-  .flex-item {
-    display: flex;
-  }
-  
-  
-  .flex-item {
-    font-family: 'Roboto';
-    background: tomato;
-    color: #000000;
-    padding: 45px;
-    width: 400px;
-    height: 250px;
-    margin-top: 20px;
-    border-radius: 10px;
-    line-height: 150px;
-    font-size: 3em;
-    text-align: center;
-    align-items: flex-start;
-  }
-
-
-
-.invisible {
-    width: 100%;
-    padding: 10px;
-    margin: 25x;
-    display: inline-block;
 }
 
 
 
 
-@media screen and (max-width: 800px) {
-    .card-carousel {
-      visibility: hidden;
-      clear: both;
-      float: left;
-      margin: 10px auto 5px 20px;
-      width: 30%;
-      display: none;
-    }
-  }
 
 
+/*header formatting */
 
-
-
-
-  .card-carousel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  }
-  
-  .card-carousel .my-card {
-    height: 300px;
-    width: 1000px;
-    position: relative;
-    z-index: 1;
-    -webkit-transform: scale(0.6) translateY(-2rem);
-    transform: scale(0.6) translateY(-2rem);
-    opacity: 0;
-    cursor: pointer;
-    pointer-events: none;
-    background: tomato;
-    color: #000000;
-    transition: 1s;
-    border-radius: 10px;
-
-  }
-  
-  .card-carousel .my-card:after {
-    content: '';
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    border-radius: 100%;
-    background-color: rgba(0,0,0,0.3);
-    bottom: -5rem;
-    -webkit-filter: blur(4px);
-    filter: blur(4px);
-  }
-  
-  .card-carousel .my-card.active {
-    z-index: 3;
-    -webkit-transform: scale(1) translateY(0) translateX(0);
-    transform: scale(1) translateY(0) translateX(0);
-    opacity: 1;
-    pointer-events: auto;
-    transition: 1s;
-  }
-  
-  .card-carousel .my-card.prev, .card-carousel .my-card.next {
-    z-index: 2;
-    -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
-    transform: scale(0.8) translateY(-1rem) translateX(0);
-    opacity: 0.6;
-    pointer-events: auto;
-    transition: 1s;
-  }
-
-
-
-
-
-  .card-carousel .my-card:nth-child(0):before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    font-size: 3rem;
-    font-weight: 300;
-    color: #fff;
-  }
-  
-  .card-carousel .my-card:nth-child(1):before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    font-size: 3rem;
-    font-weight: 300;
-    color: #fff;
-  }
-  
-  .card-carousel .my-card:nth-child(2):before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    font-size: 3rem;
-    font-weight: 300;
-    color: #fff;
-  }
-  
-  .card-carousel .my-card:nth-child(3):before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    font-size: 3rem;
-    font-weight: 300;
-    color: #fff;
-  }
-  
-  .card-carousel .my-card:nth-child(4):before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    font-size: 3rem;
-    font-weight: 300;
-    color: #fff;
-  }
-
-
-  .bottom-page {
-    font-family: 'Roboto', sans-serif;
-    background-color: tomato;
-    color: #000000;
-    text-align: center;
-    padding: 25px 0;
-    width: 100%;
-    position: relative;
-    margin: 25x;
-    display: inline-block;
-    border-radius: 10px;
-    font-size: 25px;
-    letter-spacing: 40px;
+header {
+  font-family: "roboto";
+  width: 100%;
+  text-align: center;
+  background: white;
+  padding-top: 15px;
+  padding-bottom: 0;
 
 }
+
+
+
+/*first information div formatting */
+
+
+.info-box-one {
+  width: 100%;
+  text-align: center;
+  background: #525C6D;
+  color: white;
+  border: 25px #525C6D;
+  font-family: "roboto";
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-right: 25px;
+  padding-left: -25px;
+  
+
+  
+
+
+}
+
+/*second smalled info box */
+
+.info-box-two {
+  width: 100%;
+  text-align: center;
+  background: white;
+  color: black;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-right: 25px;
+  padding-left: -25px;  
+  
+
+}
+
+
+/*pre footer formatting */
+
+.pre-footer {
+  width: 100%;
+  text-align: center;
+  background: black;
+  color: white;
+  border-style: solid;
+  border-color: black;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-right: 25px;
+  padding-left: -25px;
+  line-height: 10px;
+
+
+
+}
+
+
+
+/*footer formatting */
+
+footer {
+  font-family: "roboto";
+  width: 100%;
+  text-align: center;
+  background: black;
+  color: white;
+  border-style: solid;
+  border-color: black;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-right: 25px;
+  padding-left: -25px;
+  
+
+}
+
+
+
+
+/*Hamburger menu and overlay css */
+
+.open{
+  position: relative;
+  display: flex;
+  font-size: 2em;
+  color: black;
+  cursor: pointer;
+  padding-left: 10px;
+  top: -65px;  
+  
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: black;
+  opacity: 1;
+  visibility: hidden;
+}
+
+.close{
+  position: absolute;
+  right: 10px;
+  font-size: 3em;
+  color: #fff;
+  cursor: pointer;
+}
+
+ul{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul a{
+  display: block;
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-size: 3em;
+  font-family: "roboto";
+  color: #fff;
+  cursor: pointer;
+  transition: transform .5s;
+}
+
+ul a:hover{
+  transform: scale(1.2);
+}
+
+.visible{
+  opacity: .9;
+  visibility: visible;
