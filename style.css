@@ -7,15 +7,34 @@ body {
   
 }
 
-/* Style the header */
+/* Style the header  */
 header {
   background-color: white;
-  padding: 30px;
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   color: black;
   font-weight: 700;
+  padding-bottom: 20px;
 }
+
+i {
+  padding: 10px;
+
+}
+
+.links {
+  color: #787878;
+}
+
+
+i:hover, i:active {
+  border-style: solid;
+  color: black;
+} 
+
+
+
+
 
 /* Container for flexboxes */
 section {
