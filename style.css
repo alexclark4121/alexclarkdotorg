@@ -105,7 +105,6 @@ background-color: #b4b4b4;
 	left:0;
   width:185px;
 	color:#ffffff;
-	background:#6adcfa;
 	-webkit-border-top-left-radius:3px;
 	-webkit-border-bottom-left-radius:4px;
 	-moz-border-radius-topleft:3px;
@@ -113,6 +112,7 @@ background-color: #b4b4b4;
 	border-top-left-radius:3px;
 	border-bottom-left-radius:3px;
 }
+
 
 .skillbar-title span {
 	display:block;
