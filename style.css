@@ -102,7 +102,7 @@ background-color: #b4b4b4;
 	position:absolute;
 	top:0;
 	left:0;
-  width:185px;
+  width:80px;
 	color:#ffffff;
 	-webkit-border-top-left-radius:3px;
 	-webkit-border-bottom-left-radius:4px;
@@ -161,7 +161,7 @@ background-color: #b4b4b4;
 }
 #css-bar {
 	background: #594565;
-	opacity:0.6;
+	opacity:0.4;
 }
 
 #c-sharp-title {
