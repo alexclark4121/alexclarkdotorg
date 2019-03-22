@@ -149,43 +149,43 @@ background-color: #b4b4b4;
 
 
 #html-title {
-	background: #3E204E;
+	background: #3c3c3c;
 }
 #html-bar {
-	background: #3E204E;
-	opacity:0.6;
+	background: #3c3c3c;
+	opacity:0.8;
 }
 
 #css-title {
-	background: #594565;
+	background: #3c3c3c;
 }
 #css-bar {
-	background: #594565;
+	background: #3c3c3c;
 	opacity:0.4;
 }
 
 #c-sharp-title {
-	background: #BAAECB;
+	background: #3c3c3c;
 }
 #c-sharp-bar {
-	background: #BAAECB;
-	opacity:0.6;
+	background: #3c3c3c;
+	opacity:0.2;
 }
 
 #dot-net-title {
-	background: #E1DAE7;
+	background: #3c3c3c;
 }
 #dot-net-bar {
-	background: #E1DAE7;
-	opacity:0.6;
+	background: #3c3c3c;
+	opacity:0.2;
 }
 
 #javascript-title {
-	background: #BAAECB;
+	background: #3c3c3c;
 }
 #javascript-bar {
-	background: #BAAECB;
-	opacity:0.6;
+	background: #3c3c3c;
+	opacity:0.4;
 }
 
 
