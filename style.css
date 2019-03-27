@@ -64,10 +64,14 @@ article {
 
 .content-left {
 background-color: lightgray;
+text-align: center;
 }
+
+
 
 .content-right {
 background-color: #b4b4b4;
+text-align: center;
 
 }
 
