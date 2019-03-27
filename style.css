@@ -102,6 +102,8 @@ text-align: center;
 	transition-property:width, background-color;
 }
 
+/* skills bar title formatting */
+
 .skillbar-title {
 	position:absolute;
 	top:0;
@@ -115,6 +117,8 @@ text-align: center;
 	border-top-left-radius:3px;
 	border-bottom-left-radius:3px;
 }
+
+
 
 
 .skillbar-title span {
@@ -151,6 +155,7 @@ text-align: center;
 	color:rgba(0, 0, 0, 0.4);
 }
 
+/*skills bar colors */
 
 #html-title {
 	background: #3c3c3c;
