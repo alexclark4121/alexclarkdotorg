@@ -65,13 +65,18 @@ article {
 .content-left {
 background-color: lightgray;
 text-align: center;
+opacity: 0.6;
+
 }
 
-
+.content-left:hover, .content-right:hover {
+	opacity: 1;
+}
 
 .content-right {
 background-color: #b4b4b4;
 text-align: center;
+opacity: 0.6;
 
 }
 
